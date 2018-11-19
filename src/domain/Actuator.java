@@ -22,6 +22,12 @@ public class Actuator {
         this.value = value;
     }
 
+    public UUID getId() {
+        return id;
+    }
+    
+    
+
 
 
     
