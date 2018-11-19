@@ -12,8 +12,6 @@ public class Actuator {
         this.id = UUID.randomUUID();
     }
     
-    
-    
     public double getValue() {
         return value;
     }
@@ -25,10 +23,4 @@ public class Actuator {
     public UUID getId() {
         return id;
     }
-    
-    
-
-
-
-    
 }

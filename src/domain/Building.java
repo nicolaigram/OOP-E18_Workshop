@@ -45,9 +45,4 @@ public class Building {
     public ArrayList<Actuator> getActuators() {
         return actuators;
     }
-    
-    
-    
-    
-    
 }

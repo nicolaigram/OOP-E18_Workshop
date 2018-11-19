@@ -31,6 +31,4 @@ public class BuildingDatabase {
     public ArrayList<Building> getBuildings() {
         return buildings;
     }
-    
-    
 }
