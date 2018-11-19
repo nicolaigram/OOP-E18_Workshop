@@ -24,4 +24,10 @@ public class BuildingDatabase {
             // If building.getId == id, then remove from arraylist.
         }
     }
+
+    public ArrayList<Building> getBuildings() {
+        return buildings;
+    }
+    
+    
 }
