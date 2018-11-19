@@ -16,4 +16,10 @@ public abstract class Sensor {
         return value;
     }
 
+    public UUID getId() {
+        return id;
+    }
+    
+    
+
 }
