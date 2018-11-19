@@ -37,6 +37,16 @@ public class Building {
     public String getLocation() {
         return location;
     }
+
+    public ArrayList<Sensor> getSensors() {
+        return sensors;
+    }
+
+    public ArrayList<Actuator> getActuators() {
+        return actuators;
+    }
+    
+    
     
     
     
