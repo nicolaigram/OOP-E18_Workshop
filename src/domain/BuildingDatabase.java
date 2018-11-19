@@ -19,10 +19,13 @@ public class BuildingDatabase {
         buildings.remove(building);
     }
 
-    public void getBuilding(UUID id) {
+    public Building getBuilding(UUID id) {
         for (Building building : buildings) {
-            // If building.getId == id, then remove from arraylist.
+            if (building.getId() == id) {
+                return building;
+            }
         }
+        return null;
     }
 
     public ArrayList<Building> getBuildings() {
