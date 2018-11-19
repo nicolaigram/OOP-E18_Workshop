@@ -39,6 +39,11 @@ public class Start {
             System.out.printf("%.2f (%s) %s%n", sensor.getValue(), sensor.getId(), sensor.getClass());
         }
         
+        System.out.println("\nPrinting all sensor values again: ");
+        for (Sensor sensor : sensors) {
+            System.out.printf("%.2f (%s) %s%n", sensor.getValue(), sensor.getId(), sensor.getClass());
+        }
+        
         /* PRINT ALL SENSOR VALUES FOR BUILDING 1 */
         ArrayList<Actuator> actuators = bd.getBuilding(firstBuildingId).getActuators();
         System.out.println("\nPrinting all actuator values: ");
