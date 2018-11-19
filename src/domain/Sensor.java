@@ -7,16 +7,23 @@ public abstract class Sensor {
     private UUID id;
     private double value;
 
-    public Sensor(double value) {
+    public Sensor() {
         this.id = UUID.randomUUID();
-        this.value = value;
+        this.value = 0;
     }
 
     public double getValue() {
+        setRandomValue();
         return value;
+    }
+
+    public void setValue(double value) {
+        this.value = value;
     }
 
     public UUID getId() {
         return id;
     }
+    
+    abstract void setRandomValue();
 }
